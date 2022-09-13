@@ -1,0 +1,103 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(226, 226, 245);
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 35px;
+    color: rgba(112, 58, 65, 0.911);
+}
+.powers-container{
+    background: white;
+    width: 60%;
+    margin: 15px auto;
+    padding: 10px;
+    line-height: 1.2rem;
+}
+.img-container{
+    margin: 4px;
+    text-align: center;
+}
+p,h2{
+    width: 80%;
+    margin: 20px auto;
+}
+.btn-container{
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+
+}
+button{
+    padding: 5px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    background: rgb(226, 226, 245);
+    border: 1px solid black;
+    border-radius: 0.5em;
+
+}
+button:hover{
+    background: black;
+    color: white;
+    transform: rotate(-3deg);
+}
+#name{
+    font-family: cursive;
+    font-size: 25px;
+    color: rgba(11, 17, 80, 0.911);
+}
+#superpowers{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(85, 71, 54);
+}
+#description{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(58, 78, 58);
+}
+#year{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(85, 71, 54);
+}
+#power-source{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(58, 78, 58);
+}
+#weapons{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(85, 71, 54);
+}
+@media screen and (max-width: 575.98px){
+    .container h1{
+        margin-bottom: 5px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .powers-container{
+        background: white;
+        width: 100%;
+        margin:auto;
+        padding-top: 8px;;
+        line-height: 1.2rem;
+    }
+    #name{
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+   #superpowers,#description,#year,#power-source,#weapons{
+    font-size: 17px;
+    font-family: sans-serif;
+   }
+}
